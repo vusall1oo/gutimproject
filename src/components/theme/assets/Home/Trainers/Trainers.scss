@@ -1,0 +1,244 @@
+.trainers-div {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 190px;
+    background-color: #f5f5f5;
+h2
+{
+    text-align: center;
+    color: #111111;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+    .grid-container-tr {
+        display: grid;
+        align-items: center;
+        overflow: hidden;
+
+        justify-content: center;
+        grid-column-gap: 25px;
+        grid-template-columns: auto auto auto;
+
+        .grid-item-1,
+        .grid-item-2,
+        .grid-item-3 {
+            position: relative;
+            width: 360px;
+            height: 350px;
+
+            img {
+                top: 0;
+                left: 0;
+                position: absolute;
+                width: 360px;
+                height: 350px;
+            }
+
+        }
+    }
+
+    .trainer-text-2 {
+        background-color: rgb(255, 255, 255);
+        z-index: 100;
+        width: 360px;
+        transform: translateY(235px);
+        overflow: hidden;
+        color: black;
+        padding: 10px;
+        position: absolute;
+left: 0;
+        h5 {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+width: 100%;
+display: flex;
+justify-content: center;
+        }
+span 
+{
+    font-size: 16px;
+    color: #f15d44;
+text-align: center;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+        p {
+            width: 320px;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            color: #6b6b6b;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+            margin: 0 0 15px 0;
+        }
+
+        &:hover {
+            transform: translateY(120px);
+        }
+    }
+    .trainer-social
+    {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        i
+        {
+            font-size: 19px;
+            color: black;
+            &:hover
+            {
+               
+            color: #f15d44;
+            }
+        }
+    }
+
+}
+
+.trainer-text {
+
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+    padding: 10px;
+    transform: translateY(275px);
+    overflow: hidden;
+    color: black;
+text-align: center;
+    position: absolute;
+    span 
+    {
+        font-size: 16px;
+        color: #f15d44;
+    
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
+
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        color: #6b6b6b;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0 0 15px 0;
+
+
+    }
+.trainer-social
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    i
+    {
+        font-size: 19px;
+        color: black;
+        &:hover
+        {
+           
+        color: #f15d44;
+        }
+    }
+}
+    &:hover {
+        transform: translateY(160px);
+    }
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .grid-item-1,.grid-item-2,.grid-item-3
+    {
+        overflow: hidden;
+    }
+   
+.grid-container-tr
+{
+    display: grid!important;
+    grid-template-columns: auto!important;
+    grid-row-gap: 5rem;
+
+}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .grid-item-1,.grid-item-2,.grid-item-3
+    {
+        overflow: hidden;
+    }
+   
+.grid-container-tr
+{
+    display: grid!important;
+    grid-template-columns: auto!important;
+    grid-row-gap: 5rem;
+   
+}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .grid-item-1,.grid-item-2,.grid-item-3
+    {
+        overflow: hidden;
+    }
+   
+.grid-container-tr
+{
+    display: grid!important;
+    grid-template-columns: auto auto!important;
+    grid-row-gap: 5rem;
+   
+}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .grid-item-1,.grid-item-2,.grid-item-3
+    {
+        
+        overflow: hidden;
+    }
+  
+   
+.grid-container-tr
+{
+    display: grid!important;
+    grid-template-columns:auto auto auto!important;
+    grid-row-gap: 5rem;
+   
+}
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .grid-item-1,.grid-item-2,.grid-item-3
+    {
+        overflow: hidden;
+    }
+   
+.grid-container-tr
+{
+    display: grid!important;
+    grid-template-columns:auto auto auto!important;
+    grid-row-gap: 5rem;
+   
+}
+  }

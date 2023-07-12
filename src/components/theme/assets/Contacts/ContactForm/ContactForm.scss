@@ -1,0 +1,125 @@
+$color_3: #ebebeb;
+$color_1: #ffffff;
+$color_2: #111111;
+form {
+    input {
+      &:focus {
+        color: $color_2;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      height: 110px;
+      border: 1px solid #ebebeb;
+      padding-left: 20px;
+      font-size: 16px;
+      padding-top: 10px;
+      color: $color_3;
+      margin-bottom: 42px;
+      resize: none;
+
+      &:focus {
+        color: $color_2;
+      }
+    }
+
+    button {
+      font-size: 16px;
+      color: $color_1;
+      padding: 10px 33px;
+      background-color: #f67831;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      &:hover {
+        color: rgb(255, 255, 255);
+        background-color: black!important;
+      }
+    }
+  } 
+    .leave-comment {padding-bottom: 40px;
+      padding-top: 35px;
+      form {
+        input {
+          width: 100%;
+          height: 46px;
+          border: 1px solid #ebebeb;
+          padding-left: 20px;
+          font-size: 16px;
+          margin-bottom: 30px;
+          color: $color_3;
+        }
+      
+    }
+  h3 
+  {
+    font-weight: 600;
+  }
+  .row
+  {
+    padding-top: 40px;
+  }
+
+}
+$color_1: #111111;
+$color_2: #bdbdbd;
+.text-contact
+{
+  font-weight: 600;
+		color: $color_1;
+		text-transform: uppercase;
+		margin-bottom: 47px;
+    font-size: 23px;
+   padding-top: 15px;
+}
+.contact-info {
+padding-bottom: 40px;
+padding-top: 30px;
+	.contact-address {
+  
+		.ca-widget {
+			overflow: hidden;
+			margin-bottom: 16px;
+			.cw-icon {
+				height: 74px;
+				width: 74px;
+				border: 1px solid #ebebeb;
+				
+				text-align: center;
+				line-height: 74px;
+				float: left;
+     border-radius: 50%;
+     
+       
+				margin-right: 28px;
+        
+        .img
+        {
+          &-1
+          {
+            transform: translate(-65%, -65%);
+          } &-2
+          {
+            transform: translate(-65%, -65%);
+          } &-3
+          {
+            transform: translate(-60%, -78%);
+          }
+        }
+			}
+			.cw-text {
+				padding-top: 12px;
+				h5 {
+					color: $color_2;
+					margin-bottom: 5px;
+				}
+				p {
+					margin-bottom: 0;
+					color: $color_1;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

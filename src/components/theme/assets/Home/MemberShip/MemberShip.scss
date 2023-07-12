@@ -1,0 +1,125 @@
+.membership-section {
+	padding-bottom: 0;
+}
+.membership-section .section-title {
+	margin-bottom: 75px;
+}
+.membership-item {
+    margin-top: 25px;
+	text-align: center;
+	background: #ffffff;
+	-webkit-box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 15px 49px rgba(0, 0, 0, 0.15);
+	padding-bottom: 50px;
+    
+}
+.membership-item .mi-title {
+	background: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
+	background: -o-linear-gradient(left, #eb3c5a, #f67831);
+	background: linear-gradient(to right, #eb3c5a, #f67831);
+	padding: 25px 0;
+	position: relative;
+	margin-bottom: 38px;
+}
+.membership-item .mi-title h4 {
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.membership-item .mi-title:after {
+	position: absolute;
+	left: 50%;
+	bottom: -14px;
+	width: 30px;
+	height: 15px;
+	-webkit-transform: translateX(-15px);
+	-ms-transform: translateX(-15px);
+	transform: translateX(-15px);
+	-webkit-clip-path: polygon(0% 0%, 50% 100%, 50% 100%, 100% 0%);
+	clip-path: polygon(0% 0%, 50% 100%, 50% 100%, 100% 0%);
+	background: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
+	background: -o-linear-gradient(left, #eb3c5a, #f67831);
+	background: linear-gradient(to right, #eb3c5a, #f67831);
+	content: "";
+}
+.membership-item .mi-price {
+	font-size: 40px;
+	color: #f15d44;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+.membership-item .mi-price span {
+	font-size: 16px;
+	color: #6b6b6b;
+	font-weight: 400;
+}
+.membership-item ul {
+	margin-bottom: 27px;
+}
+.membership-item ul li {
+	list-style: none;
+	font-size: 16px;
+	line-height: 36px;
+}
+.membership-item ul li p {
+	margin-bottom: 0;
+	color: #6b6b6b;
+}
+.membership-item ul li span {
+	color: #111111;
+	font-weight: 600;
+}
+.membership-item .membership-btn {
+	color: #ffffff;
+    border: 1px solid #eb3c5a;
+    transition: 1s;
+}
+.membership-item .membership-btn:hover {
+	color: #000000;
+}
+.membership-item .membership-btn:hover:after {
+	opacity: 1;
+}
+.membership-item .membership-btn:after {
+	opacity: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.membership-item
+{
+    margin-bottom: 40px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .membership-item
+    {
+        margin-bottom: 40px;
+    }  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .membership-item
+{
+    margin-bottom: 40px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .membership-item
+{
+    margin-bottom: 40px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .membership-item
+{
+    margin-bottom: 40px;
+}
+}

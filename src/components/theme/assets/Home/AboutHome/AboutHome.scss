@@ -1,0 +1,232 @@
+.about-us {
+
+
+
+    .about-content {
+        h2 {
+            font-size: 30px;
+            color: #111111;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            color: #6b6b6b;
+            font-weight: 400;
+            line-height: 26px;
+            margin: 0 0 15px 0;
+        }
+
+        .read-more-btn {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+
+            color: #ffffff;
+            text-align: center;
+
+            width: 140px;
+            height: 46px;
+
+            text-decoration: none;
+            outline: none;
+            border: none;
+            box-sizing: border-box;
+            background-color: transparent !important;
+            background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+            line-height: 46px;
+            position: relative;
+            transition: 1s;
+            z-index: 1;
+
+            &:hover {
+                background-color: black !important;
+                background-image: none;
+
+                border: none;
+                outline: none;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .about-pic {
+
+        position: relative;
+
+        .autoplay {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .about-img {
+            width: 96%;
+        }
+    }
+
+    .hero-text {
+        h1 {
+            font-size: 50px;
+        }
+
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+
+        p {
+            text-align: justify;
+        }
+
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .about-us {
+        left: 10%;
+        gap: 20px;
+        width: 80%;
+        text-align: justify;
+        position: relative;
+        display: flex;
+        align-items: start;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-pic {
+        position: relative;
+
+        .autoplay {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .about-content {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .about-us {
+        left: 10%;
+        gap: 20px;
+        width: 80%;
+        text-align: justify;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+        margin-bottom: 50px;
+    }
+
+    .about-pic {
+        width: 100% !important;
+
+        img {
+            width: 100%;
+        }
+
+        position: relative;
+
+        .autoplay {
+            width: 10%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1250px) {
+    .about-us {
+        left: 10%;
+        gap: 20px;
+        width: 80%;
+        text-align: justify;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .about-pic {
+            .autoplay {
+                width: 15% !important;
+            }
+
+            width: 90%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .about-content {
+            width: 60%;
+        }
+    }
+
+
+}
+
+@media only screen and (min-width:767px) and (max-width:768px) {
+
+    .about-us {
+        left: 10%;
+        gap: 20px;
+        width: 80%;
+        text-align: justify;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+        margin-bottom: 50px;
+    }
+
+    .about-pic {
+        width: 100% !important;
+
+        img {
+            width: 100%;
+        }
+
+        position: relative;
+
+        .autoplay {
+            width: 10%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+    }
+
+
+}

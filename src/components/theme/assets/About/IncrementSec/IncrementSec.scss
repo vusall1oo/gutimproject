@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../../../../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+.inc-container,.incs-container
+{
+    display: flex;
+    flex-direction: row;
+
+   
+	
+  color:#fff;
+  font-family: "Poppins"; 
+  
+ margin: 20px;
+   
+    justify-content: center;
+    align-items: center;
+}
+.incs-container
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 10%;
+    background: -webkit-gradient(linear, left top, right top, from(#eb3c5a), to(#f67831));
+	background: -o-linear-gradient(left, #eb3c5a, #f67831);
+	background: linear-gradient(to right, #eb3c5a, #f67831);
+}
+.services
+{
+    h1,span
+    {
+        font-size: 72px;
+    }
+    p 
+    {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 767px) {
+  .inc-container,.incs-container
+  {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .inc-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1250px) {
+    .inc-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

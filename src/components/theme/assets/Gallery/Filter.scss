@@ -1,0 +1,54 @@
+.gallery-section {
+	padding-bottom: 70px;
+}
+.gallery-controls {
+  padding-top: 5%;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.gallery-controls li {
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #111111;
+	text-transform: uppercase;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.gallery-controls li.active {
+	color: #f15d44;
+}
+.gallery-controls li:last-child {
+	margin-right: 0;
+}
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+.scale-animation {
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.scale-animation.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.gallery-filter
+{
+  margin-right: 100px;
+}
+@media only screen and (min-width:400px) and (max-width:500px){
+  .gallery-controls li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #111111;
+    text-transform: uppercase;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+}

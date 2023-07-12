@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #000000;
+  font-size: 50px;
+}
+
+.div-slick {
+  width: 100%;
+  height: 85vh;
+}
+
+.container .box-container {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 29%));
+  gap: 15px;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.text-img {
+  position: absolute;
+  top: 68.5%;
+  background-color: rgba(0, 0, 0, 0.517);
+  width: 100%;
+  height: 80px;
+}
+.text-img h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.div-img1 {
+  background-image: url("../../img/blog/../classes/classes-1.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img1:hover {
+  transform: scale(1.5);
+}
+
+.div-img2 {
+  background-image: url("../../img/blog/../classes/classes-2.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img2:hover {
+  transform: scale(1.5);
+}
+
+.div-img3 {
+  background-image: url("../../img/blog/../classes/classes-3.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img3:hover {
+  transform: scale(1.5);
+}
+
+.div-img4 {
+  background-image: url("../../img/blog/../classes/classes-4.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img4:hover {
+  transform: scale(1.5);
+}
+
+.div-img5 {
+  background-image: url("../../img/blog/../classes/classes-5.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img5:hover {
+  transform: scale(1.5);
+}
+
+.div-img6 {
+  background-image: url("../../img/blog/../classes/classes-6.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img6:hover {
+  transform: scale(1.5);
+}
+
+.div-img7 {
+  background-image: url("../../img/blog/../classes/classes-7.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img7:hover {
+  transform: scale(1.5);
+}
+
+.control-dots {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dot:nth-child(1) {
+  display: flex;
+  align-items: center;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  border-radius: 20px !important;
+}
+
+.dot:nth-child(2) {
+  margin-left: -4px !important;
+  display: flex;
+  align-items: center;
+  width: 22px !important;
+  height: 7px !important;
+  border-radius: 20px !important;
+  background-color: rgb(246, 120, 49) !important;
+}
+
+.div-img8 {
+  background-image: url("../../img/blog/../classes/classes-8.jpg");
+  width: 100%;
+  height: 255px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  transition: transform 2s;
+}
+.div-img8:hover {
+  transform: scale(1.5);
+}
+
+.container .box-container .box {
+  width: 350px;
+  background: #fff;
+  height: 255px;
+  text-align: center;
+}
+
+.container .box-container .box img {
+  object-fit: contain;
+}
+
+.container .box-container .box h3 {
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.container .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.container .box-container .box .btn {
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover {
+  letter-spacing: 1px;
+}
+
+.container .box-container .box {
+  transform: scale(1);
+}/*# sourceMappingURL=Sliderhome.css.map */
